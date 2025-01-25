@@ -1,0 +1,55 @@
+.reports {
+    font-family: 'Arial', sans-serif;
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 1200px;
+    background-color: #f4f7fc;
+    border-radius: 8px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+.chartContainer {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chartContainer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #555;
+    text-align: center;
+}
+
+.chartContainer p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .reports {
+        padding: 1rem;
+    }
+
+    .chartContainer {
+        padding: 1rem;
+    }
+
+    .chartContainer h3 {
+        font-size: 1.2rem;
+    }
+
+    .chartContainer p {
+        font-size: 1rem;
+    }
+}

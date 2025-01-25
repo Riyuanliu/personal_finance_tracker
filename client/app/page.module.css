@@ -1,0 +1,87 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Arial, sans-serif';
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.loginButton {
+  padding: 10px 20px;
+  background-color: white;
+  color: #1a73e8;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #1a73e8, #6ec5ff);
+  color: white;
+  padding: 100px;
+  text-align: center;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.heroTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.ctaButton {
+  padding: 15px 40px;
+  background-color: white;
+  color: #1a73e8;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #f1f1f1;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.messageContainer {
+  max-width: 600px;
+  text-align: center;
+  background-color: #f0f4f7;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+.serverMessage {
+  font-size: 1.25rem;
+  color: #333;
+  margin-top: 20px;
+}

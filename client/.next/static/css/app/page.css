@@ -1,0 +1,134 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/page.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.page_page__556_G {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Arial, sans-serif';
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+
+.page_logo__ikIZE {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+.page_loginButton__1kZAU {
+  padding: 10px 20px;
+  background-color: white;
+  color: #1a73e8;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.page_heroSection__OcWIo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to right, #1a73e8, #6ec5ff);
+  color: white;
+  padding: 100px;
+  text-align: center;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.page_heroTitle__ixXIp {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.page_heroSubtitle__ZW2Yq {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.page_ctaButton__lcwUc {
+  padding: 15px 40px;
+  background-color: white;
+  color: #1a73e8;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.page_ctaButton__lcwUc:hover {
+  background-color: #f1f1f1;
+}
+
+.page_main__nw1Wk {
+  flex: 1 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.page_messageContainer__i1_1F {
+  max-width: 600px;
+  text-align: center;
+  background-color: #f0f4f7;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+.page_serverMessage__Kz2U0 {
+  font-size: 1.25rem;
+  color: #333;
+  margin-top: 20px;
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/components/navbar.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************/
+.navbar_navbar__iB8wV {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1a73e8;
+    color: white;
+}
+
+.navbar_logo__1_5ug {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar_navLinks__tA_zp {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar_navLinks__tA_zp li {
+    margin: 0;
+}
+
+.navbar_navLinks__tA_zp a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar_loginButton__WSOAT {
+    padding: 10px 20px;
+    background-color: white;
+    color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
