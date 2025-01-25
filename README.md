@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-# personal_finance_tracker
-=======
 # Finance Tracker
 
-## About
+# About
 
 The Finance Tracker is a web application designed to help users manage their personal finances. It allows users to track their expenses and income, categorize transactions, and maintain a record of their financial activities. The platform supports features such as user authentication, transaction categorization, and detailed financial analysis.
 
@@ -16,25 +13,33 @@ For handling currency conversions, the Finance Tracker integrates with the **Exc
 When a user records an income or transaction in a foreign currency, the application converts the amount to USD for uniform tracking. This ensures that regardless of the currency selected by the user, all income and financial data is stored and analyzed in USD.
 
 The application fetches exchange rates from the API and converts the amount to USD before storing it in the database. This helps users to easily manage and view their finances in a consistent currency format (USD) across all transactions.
+
 ### Project Logic
 
 The Finance Tracker follows a simple flow to allow users to manage their finances.
 
 1. **Home Page**:
 
-    - Upon visiting the website, users land on the home page. The home page provides an overview of the application and prompts users to log in.
+   ![1737792064547](images/README/1737792064547.png)
+
+   - Upon visiting the website, users land on the home page. The home page provides an overview of the application and prompts users to log in.
 2. **Login**:
 
-    - In order to access their personal financial information, users must click on the "Login" button. The login process requires the user to provide their credentials (username and password).
-3. **Dashboard**:
+   ![1737792096639](images/README/1737792096639.png)
 
-    - After logging in, the user is redirected to their **dashboard**. The dashboard serves as the main hub for the user’s financial activities.
-    - The user can view their basic information, such as username and email, along with their financial overview.
-    - **Add Expense**: The user can add new expenses by specifying the category, amount, and description.
-    - **Check History**: The user can view a history of their previous transactions, including both expenses and income.
-    - The user can also manage other categories, check the balance in different currencies (all converted to USD), and track their financial progress.
+   - In order to access their personal financial information, users must click on the "Login" button. The login process requires the user to provide their credentials (username and password).
+3. **Dashboard**:
+   ![1737792144755](images/README/1737792144755.png)
+
+   - After logging in, the user is redirected to their **dashboard**. The dashboard serves as the main hub for the user’s financial activities.
+   - The user can view their basic information, such as username and email, along with their financial overview.
+   - **Add Expense**: The user can add new expenses by specifying the category, amount, and description.
+   - ![1737792157883](images/README/1737792157883.png)
+   - **Check History**: The user can view a history of their previous transactions, including both expenses and income.
+   - The user can also manage other categories, check the balance in different currencies (all converted to USD), and track their financial progress.!
 
 ## How to Run
+
 Follow the steps below to run the project locally.
 
 ### 1. Set up the Client (Front-end)
@@ -85,4 +90,11 @@ The server will start, and you should be able to interact with the application t
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 >>>>>>> 7e23cf5 (Finish product)
+>>>>>>>
+>>>>>>
+>>>>>
+>>>>
+>>>
+>>
